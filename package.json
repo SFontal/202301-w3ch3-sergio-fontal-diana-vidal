@@ -1,9 +1,9 @@
 {
-  "name": "got-dom",
+  "name": "Listado de Series",
   "version": "1.0.0",
   "scripts": {
-    "prebuild": "rm -rf dist",
-    "prebuild:dev": "rm -rf dist",
+    "prebuild": "rimraf dist",
+    "prebuild:dev": "rimraf dist",
     "build": "parcel build src/index.html src/img/*",
     "build:dev": "parcel src/index.html src/img/*"
   },
@@ -28,6 +28,5 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^5.2.3"
   },
-  "main": ".eslintrc.js",
   "description": ""
 }
