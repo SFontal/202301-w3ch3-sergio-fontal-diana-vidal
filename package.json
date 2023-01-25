@@ -1,5 +1,5 @@
 {
-  "name": "Listado de Series",
+  "name": "My Series",
   "version": "1.0.0",
   "scripts": {
     "prebuild": "rimraf dist",
