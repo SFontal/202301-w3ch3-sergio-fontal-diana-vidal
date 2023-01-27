@@ -1,5 +1,7 @@
 import { SeriesList } from "./components/SeriesList/SeriesList";
 import series from "./series";
+import ContainerHeaderComponent from "./components/ContainerHeader/ContainerHeaderComponent";
+import SeriesListComponent from "./components/SeriesList/SeriesListContainer";
 
 const mainTitle = "My Series";
 
