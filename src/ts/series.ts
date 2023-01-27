@@ -1,4 +1,4 @@
-import { type Series } from "./types/types";
+import { type Series } from "./components/SeriesStructure/SeriesStructure";
 
 const series: Series = [
   {
@@ -48,7 +48,8 @@ const series: Series = [
     name: "Atypical",
     creator: "Robia Rashid",
     year: 2017,
-    poster: "https://www.cine.com/media/series/2711.jpg",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BMjNjNThmYTUtMjY2Ni00OGE4LTgzOTItYTgzMDllNDM5NTI5XkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_.jpg",
     isWatched: false,
     score: 0,
     emmies: 0,
