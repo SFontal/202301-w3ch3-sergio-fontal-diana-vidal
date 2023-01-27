@@ -1,4 +1,5 @@
 import { type Series } from "../SeriesStructure/SeriesStructure";
+import { SerieCard } from "../SerieCard/SerieCard";
 
 interface SeriesListStructure {
   element: Element;
@@ -29,10 +30,14 @@ export class SeriesList implements SeriesListStructure {
     this.title = typeOfList === "pending" ? "Pending series" : "Watched series";
 
     this.render();
+
     this.element.innerHTML = `<h3 class="list__title">${this.title}</h3>
-                              <span class="list__info">${this.span}</span>`;
+    <span class="list__info">${this.span}</span>
+    <ul class="series"></ul>`;
 
     this.parentElement.appendChild(this.element);
+
+    this.series.forEach((serie) => new SerieCard("li", "serie", serie));
   }
 
   private render() {
